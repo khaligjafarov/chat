@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-
-    
     $("#me").click(function (e) {
         e.preventDefault()
         function myel(myclass = "") {
@@ -26,18 +24,6 @@ $(document).ready(function () {
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     })
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
